@@ -17,7 +17,7 @@ static const char col_gray1[] = "#1e1e2e";
 static const char col_gray2[] = "#313244";  
 static const char col_gray3[] = "#cdd6f4";  
 static const char col_gray4[] = "#7f849c";  
-static const char col_cyan[]  = "#89dceb";
+static const char col_cyan[]  = "#1e1e2e";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -52,7 +52,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
