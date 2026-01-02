@@ -3,5 +3,5 @@
 /usr/bin/wireplumber &
 
 setxkbmap -layout us,eg -option grp:alt_shift_toggle
-
+nm-applet &
 exec dwm
