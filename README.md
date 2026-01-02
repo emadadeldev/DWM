@@ -1,5 +1,5 @@
 ```
-sudo xbps-install -y base-devel git
+sudo xbps-install -y vlc git nano base-devel libX11 libX11-devel libXinerama libXinerama-devel 
 ```
 
 ```
