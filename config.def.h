@@ -11,17 +11,22 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[] = "#1e1e2e";  
-static const char col_gray2[] = "#313244";  
-static const char col_gray3[] = "#cdd6f4";  
-static const char col_gray4[] = "#7f849c";  
-static const char col_cyan[]  = "#1e1e2e";
+static const char *fonts[]          = { "JetBrains Mono:style=Regular:size=14" };
+static const char dmenufont[]       = "JetBrains Mono:style=Bold:size=14";
+static const char col_gray1[]       = "#1e1e2e";  
+static const char col_gray2[]       = "#f8f8f2";  
+static const char col_gray3[]       = "#cdd6f4";  
+static const char col_gray4[]       = "#7f849c";  
+static const char col_cyan[]        = "#1e1e2e";
+static const char col_border[]      = "#1e1e2e";
+static const char col_out_focus[]   = "#f8f8f2";
+
+
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeNorm] = { col_gray3, col_gray1, col_border},
+	[SchemeSel]  = { col_gray4, col_cyan,  col_out_focus},
 };
 
 /* tagging */
