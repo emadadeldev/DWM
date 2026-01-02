@@ -3,7 +3,7 @@
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* Size of the window border */
-static unsigned int border_width = 5;
+static unsigned int border_width = 1;
 static int centered = 1;                    /* -c option; centers dmenu on screen */
 static int min_width = 600;                    /* minimum width when centered */
 static const float menu_height_ratio = 4.0f;  /* This is the ratio used in the original calculation */
