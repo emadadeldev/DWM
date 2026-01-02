@@ -18,7 +18,6 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "wpctl get-volume @DEFAULT_AUDIO_SINK@'", 0, 5) \
-    X("", "sb-volume", 0, 8)  \
-    X("", "date '+%I:%M %p'", 1, 1)
+    X("Vol ", "wpctl get-volume @DEFAULT_AUDIO_SINK@'", 0, 5) \
+    X("Time ", "date '+%I:%M %p'", 1, 1)
 #endif  // CONFIG_H
