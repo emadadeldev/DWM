@@ -68,6 +68,10 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *filemanager[]  = { "thunar", NULL };
 
+/* volume  */
+static const char *vol_up[]   = { "wctpl", "-l", "100", "0.05+", NULL };  
+static const char *vol_down[] = { "wctpl", "-l", "0", "0.05-", NULL };     
+static const char *vol_mute[] = { "wctpl", "-l", "toggle-mute", NULL };   
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
