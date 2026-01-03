@@ -3,7 +3,7 @@ sudo xbps-install -y vlc git nano base-devel libX11 libX11-devel libXinerama lib
 ```
 
 ```
-https://github.com/emadadeldev/dwm.git
+git clone https://github.com/emadadeldev/dwm.git
 ```
 
 ```
