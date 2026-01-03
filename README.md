@@ -1,5 +1,3 @@
-# Minimal **dwm** setup for **Void Linux**.
-
 ## Dependencies
 
 ```sh
