@@ -30,3 +30,17 @@ sudo make clean install
 cd dmenu
 sudo make clean install
 ```
+
+## Dotfiles
+
+```sh
+curl -L https://raw.githubusercontent.com/emadadeldev/dwm/refs/heads/main/.bash_profile -o ~/.bash_profile
+curl -L https://raw.githubusercontent.com/emadadeldev/dwm/refs/heads/main/.xinitrc -o ~/.xinitrc
+```
+
+```sh
+mkdir -p ~/.fonts
+wget https://github.com/emadadeldev/dwm/raw/refs/heads/main/fonts/JetBrainsMono-VariableFont_wght.ttf \
+  -O ~/.fonts/JetBrainsMono-VariableFont_wght.ttf
+fc-cache -fv
+```
